@@ -3,27 +3,255 @@
      padding: 0;
      box-sizing: border-box;
      color: white;
-}
-
-html, body{
+     background-color: black;
+     font-family: "General Sans";
+ }
+ 
+ html, body{
      width: 100%;
      height: 100%;
-}
-
-
-.main{
+ }  
+ 
+ 
+ 
+ .main{
+     width: 100%;
+ }
+ 
+ 
+ /* #more{
+     margin:3vh 5vh;
+ } */
+ 
+ .hero {
+     position: relative;
+     color: #fff;
      width: 100%;
      height: 100vh;
      background-color: black;
-     
-}
-
-
-#nav{
-     height: 100%;
+ }
+ 
+ 
+ #nav{
      width: 100%;
      display: flex; 
      justify-content: space-between;
      align-items: center;
-     padding: 0 5vw;
+     padding: 20px 40px;
+     font-size: 2vw;
+     
+ }
+ 
+ 
+ #nav a {
+     text-decoration: none;
+     
+ }
+ 
+ 
+ .heading{
+     line-height: .9;
+     margin-top: 90px;
+ }
+ 
+ .heading h1{
+     opacity: .6;
+     font-family: "general sans";
+     text-transform: uppercase;
+     font-size: 10vw;
+     margin-left: 30px;
+     
+ }
+ 
+ 
+ #dsigner{
+     margin-left: 9.7vw;
+ }
+ 
+ .secondtext{
+     width: fit-content;
+     text-transform: uppercase;
+ }
+ 
+ 
+ .secondtext h5{
+     font-size: 1.9vh;
+     margin-top: 10px;
+     text-align: right;
+ }
+ 
+ .smallhead{
+     text-align: right;
+     margin-top: 100px;
+     padding-left: 50px;
+ }
+     
+ .smallhead h4{
+     font-size: 1vw;
+     margin-top: .5vw;
+     margin: 0 3vw;
+     text-transform: uppercase;
+ }
+ 
+ 
+ .fottercontent{
+     width: 100%;
+     position: absolute;
+     bottom: 2%;    
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1vw 2vw; 
+ }
+ 
+ 
+ .fottercontent a{
+     text-transform: uppercase;
+     text-decoration: none;
+ }
+ 
+ 
+ .iconset{
+     display: flex;
+     gap: 4px;
+     padding-left: 70px;
+   
+ }
+ 
+ .ri-arrow-down-line{
+     color: black;
+ }
+ 
+ .circle{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 30px;
+     width: 30px;
+     background-color: aliceblue;
+     border-radius: 50%;
+ }
+ 
+ 
+ .secondpage{
+     padding-top: 200px;
+     padding-right: 10vw;
+     height: 100vh;
+ }
+
+ .elem{
+     border-top: solid 2px #888;
+     width: 100%;
+     padding: 3.8vw 2vw;
+     text-transform: uppercase;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-right: 0;
+     position: relative;
+ }
+
+ .elem h1{
+     font-size: 3rem;
+ }
+
+ .elem img{
+     opacity: .5;
+     position: absolute;
+     height: 100%;
+     width: 20%;
+ }
+
+ .bottom {
+     border-bottom: 1px solid #888;
+ }
+
+
+ #about{
+     background-color: black;
+     display: flex;
+     align-items: center;
+     width: 100%;
+     padding: 12vw 10vw;
+     padding-left: 35vw;
+     gap: 6vw;
+ }
+
+ .textabout{
+     width: 25rem;
+ }
+
+.textabout h5{
+     font-size: 1rem;
+     margin-bottom: .5vw;
+     opacity: .8;
+     text-transform: uppercase;
+}
+
+.textabout p{
+     line-height: 1.7;
+     padding-bottom: 2vw;
+}
+
+#about a{
+     text-decoration: none;
+     border: 1px solid #888;
+     padding: 5.5px 10px;
+     border-radius: 100px;
+     font-size: 12px;
+     opacity: .6;
+}
+
+:hover{
+     opacity: 1;
+}
+
+
+#about img {
+     width: 15vw;
+}
+
+.suscribe{
+     background-color: black;
+     padding-left: 3vw;
+     padding-bottom: 2.9vw;
+     padding-bottom: 7vw;
+}
+
+.suscribe a{
+     text-decoration: none;
+     text-transform: uppercase;
+     font-weight: 900;
+
+}
+
+.suscribe  h3 {
+     opacity: .6;
+     font-size: 15px;
+     text-transform: uppercase;
+     padding-right: 10px;
+     padding-bottom: 10px;
+}
+
+.fotter{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: black;
+     padding: 1vw 2vw;
+     text-transform: uppercase;
+     font-size: 15px;
+}
+
+.fotter .right{
+
+     display: flex;
+     gap: 10px ;
+}
+
+.fotter .left{
+     display: flex;
+     gap: 50px ;
+     margin-right: 20px;
+
 }
