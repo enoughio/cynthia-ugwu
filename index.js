@@ -66,6 +66,9 @@ function squeez(){
 
 
 var timer ;
+
+
+
 function imganimation()
 {
     var prerotate = 0;
@@ -73,16 +76,11 @@ function imganimation()
     
     document.querySelectorAll(".elem").forEach( 
 
-
+      
         (elem)=>{
 
             elem.addEventListener("mouseleave", (dets)=>{
                 
-                rotate = prerotate - dets.clientX ;
-                               // console.log(rotate)
-                prerotate = dets.clientX;
-
-                var diff = dets.clientY - elem.getBoundingClientRect().top;                
                 gsap.to(elem.querySelector("img"), {
                     opacity : 0,
                     ease : Power3,
@@ -95,8 +93,8 @@ function imganimation()
                 rotate = prerotate - dets.clientX ;
                                // console.log(rotate)
                 prerotate = dets.clientX;
-
                 var diff = dets.clientY - elem.getBoundingClientRect().top;                
+                
                 gsap.to(elem.querySelector("img"), {
                     opacity : 1,
                     ease : Power3,
