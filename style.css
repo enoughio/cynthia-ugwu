@@ -167,6 +167,7 @@
      width: 100%;
  }
 
+
  .elem{
      border-top: solid 2px #888;
      width: 100%;
@@ -177,10 +178,12 @@
      justify-content: space-between;
      padding-right: 0;
      position: relative;
+     height: 32vh;
  }
 
  .elem h1{
-     font-size: 3rem;
+     font-size: 5rem;
+     font-weight: bold; 
  }
 
  .elem img{
